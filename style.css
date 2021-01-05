@@ -1,0 +1,58 @@
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 60px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.orange-highlight{
+    color: tomato;
+}
+
+p{
+    color: gray;
+    padding: 1% 0%;
+}
+
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    float:left;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.welcome-part{
+    height: 500px;
+    padding-left: 2%;
+}
+
+.clickable-button{
+    background-image:linear-gradient(45deg, lightsalmon, tomato);
+    padding: 1.5% 5%;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 10px; 
+    font-size: 16px;
+}
+
+section{
+    height: 500px;
+}
+
+.text-part{
+    padding-top: 100px;
+    text-align: justify;
+}
+
+.dream-part{
+    padding-right: 2%;
+}
