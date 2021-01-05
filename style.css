@@ -7,6 +7,7 @@ h2{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin-left: 0%;
 }
 
 .orange-highlight{
@@ -30,8 +31,9 @@ p{
 }
 
 .welcome-part{
-    height: 500px;
     padding-left: 2%;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 .clickable-button{
@@ -45,7 +47,7 @@ p{
 }
 
 section{
-    height: 500px;
+    height: 800px;
 }
 
 .text-part{
@@ -55,4 +57,23 @@ section{
 
 .dream-part{
     padding-right: 2%;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 800px;
+}
+
+.experience1, .experience2{
+    box-shadow: 10px 10px 100px lightgray;
+    border-radius: 10px;
+}
+
+.experience1{
+    
+}
+
+.last-part{
+    height: 800px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
 }
