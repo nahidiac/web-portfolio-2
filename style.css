@@ -3,8 +3,9 @@ h1{
 }
 
 h2{
-    font-size: 60px;
+    font-size: 50px;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
     margin-left: 0%;
@@ -53,6 +54,7 @@ section{
 .text-part{
     padding-top: 100px;
     text-align: justify;
+    height: 100%;
 }
 
 .dream-part{
@@ -66,10 +68,18 @@ section{
 .experience1, .experience2{
     box-shadow: 10px 10px 100px lightgray;
     border-radius: 10px;
+    background-color: white;
+    height: 400px;
+    object-position: center;
 }
 
 .last-part{
     height: 800px;
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
+    float: left;
+}
+
+footer{
+    text-align: center;
 }
